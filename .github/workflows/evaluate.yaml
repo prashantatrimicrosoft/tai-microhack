@@ -174,7 +174,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          uv pip install -r requirements-dev.txt
+          uv pip install --system -r requirements-dev.txt
 
       - name: Run local server in background
         run: |
@@ -184,7 +184,7 @@ jobs:
 
       - name: Install evaluate dependencies
         run: |
-          uv pip install -r evals/requirements.txt
+          uv pip install --system -r evals/requirements.txt
 
       - name: Evaluate local RAG flow
         run: |
