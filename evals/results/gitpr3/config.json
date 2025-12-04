@@ -1,7 +1,7 @@
 {
     "testdata_path": "ground_truth.jsonl",
-    "results_dir": "results/gpt4ogitpr5",
-    "requested_metrics": ["gpt_groundedness", "gpt_relevance", "answer_length", "latency", "citations_matched", "any_citation"],
+    "results_dir": "evals/results",
+    "requested_metrics": ["gpt_groundedness", "gpt_relevance"],
     "target_url": "http://localhost:50505/ask",
     "target_parameters": {
         "overrides": {

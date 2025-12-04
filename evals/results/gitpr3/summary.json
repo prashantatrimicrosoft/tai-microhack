@@ -1,0 +1,15 @@
+{
+    "gpt_groundedness": {
+        "pass_count": 244,
+        "pass_rate": 0.98,
+        "mean_rating": 4.85
+    },
+    "gpt_relevance": {
+        "pass_count": 234,
+        "pass_rate": 0.94,
+        "mean_rating": 4.52
+    },
+    "num_questions": {
+        "total": 250
+    }
+}
